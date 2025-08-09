@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guia de Quests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .quest-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 20px;
+            max-width: 1000px; /* Ajuste conforme necessário */
+            margin: 0 auto;
+        }
+        
+        .quest-icon {
+            width: 180px; /* Largura fixa para cada ícone */
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            flex: 0 0 calc(33.333% - 20px); /* 3 por linha com gap */
+            box-sizing: border-box;
+        }
+        .quest-icon:hover {
+            transform: scale(1.05);
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Guia de Quests</h1>
+        <p>Selecione uma quest para ver os detalhes</p>
+    </div>
+
+    <div class="quest-container">
+        <a href="timeTravel.html" style="text-decoration: none;">
+            <div class="quest-icon">
+                Time Travel<br>Level 300+
+            </div>
+        </a>
+
+        <a href="Whirl_Islands.html" style="text-decoration: none;">
+            <div class="quest-icon">
+                Whirl Islands<br>Level 150+
+            </div>
+        </a>
+
+        <a href="Whirl_Islands.html" style="text-decoration: none;">
+            <div class="quest-icon">
+                Noctu awakening<br>Level 150+
+            </div>
+        </a>
+
+
+        <a href="mainQuest.html" style="text-decoration: none;">
+            <div class="quest-icon">
+                Main Johto<br>Level 150+
+            </div>
+        </a>
+        
+        <a href="safari_quest.html" style="text-decoration: none;">
+            <div class="quest-icon" >
+                Safari Quest<br>Level 100+
+            </div>
+        </a>
+
+        <a href="flores.html" style="text-decoration: none;">
+            <div class="quest-icon">
+              Flores Coloridas<br>Level 100+
+            </div>
+        </a>
+        <a href="sailorBastille.html" style="text-decoration: none;">
+            <div class="quest-icon">
+              Sailor Bastille<br>Level 100+
+            </div>
+        </a>
+
+        <a href="flores.html" style="text-decoration: none;">
+            <div class="quest-icon">
+              Karate King<br>Level 60+
+            </div>
+        </a>
+
+        <a href="flores.html" style="text-decoration: none;">
+            <div class="quest-icon">
+              Sprout Tower Quest<br>Level 60+
+            </div>
+        </a>
+
+       
+        <!-- Adicione mais ícones de quests conforme necessário -->
+        <div class="quest-icon" style="background-color: #cccccc;">
+            Em breve<br>+
+        </div>
+    </div>
+</body>
+</html>

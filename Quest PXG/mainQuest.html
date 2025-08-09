@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mt. Silver Quest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif, "Segoe UI Emoji", "Apple Color Emoji";
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #7f8c8d;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #7f8c8d;
+            margin-top: 25px;
+            border-left: 4px solid #7f8c8d;
+            padding-left: 10px;
+        }
+        .section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #e1e4e8;
+        }
+        .credits {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #7f8c8d;
+        }
+        .rewards {
+            background-color: #e8f5e9;
+            border-left: 4px solid #2ecc71;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+        }
+        .back-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background-color: #7f8c8d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #95a5a6;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .location {
+            background-color: #eaf2f8;
+            padding: 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 5px 0;
+            display: inline-block;
+        }
+        ul.quest-steps {
+            padding-left: 20px;
+        }
+        ul.quest-steps li {
+            margin-bottom: 10px;
+        }
+        .pokemon-list {
+            columns: 2;
+            column-gap: 20px;
+        }
+        .checkpoint {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #7f8c8d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">Voltar</a>
+        <h1><span class="emoji">🏔️</span> Mt. Silver Quest</h1>
+        
+        <div class="credits">
+            Créditos totais ao Leaf<br>
+            150+ etapas completas
+        </div>
+        
+        <div class="section">
+            <h2><span class="emoji">🚀</span> Início da Quest</h2>
+            <ul class="quest-steps">
+                <li>Fale com o <strong>NPC Mason</strong> na entrada do <strong>Mt. Silver</strong></li>
+                <li>Em seguida, vá até o respawn de <strong>Tyranitar</strong> e siga para o <strong>norte</strong> acessando a hunt de <strong>Magmar</strong></li>
+                <li>Vá até a coordenada: <span class="location">1128, 36175, 8</span></li>
+                <li>Colete o <strong>Pokégear</strong> (use-o para avançar nas etapas da quest)</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2><span class="emoji">🔍</span> Segunda Parte: Coletar Fragmentos</h2>
+            <h3>Pokémons para derrotar:</h3>
+            <div class="pokemon-list">
+                <ul>
+                    <li>Ampharos</li>
+                    <li>Missdreavus</li>
+                    <li>Xatu</li>
+                    <li>Granbull</li>
+                    <li>Onix</li>
+                    <li>Parasect</li>
+                    <li>Crobat</li>
+                    <li>Bellossom</li>
+                    <li>Primeape</li>
+                    <li>Rapidash</li>
+                    <li>Houndoom</li>
+                </ul>
+            </div>
+            
+            <h3>Respaw de Quagsire (usar Dig):</h3>
+            <div class="location">825, 36555, 7</div>
+            
+            <h3>Locais para coletar fragmentos:</h3>
+            <table>
+                <tr>
+                    <th>Local</th>
+                    <th>Pokémon</th>
+                    <th>Habilidade Necessária</th>
+                    <th>Coordenadas</th>
+                </tr>
+                <tr>
+                    <td>Spot 1</td>
+                    <td>Heracross</td>
+                    <td>Dig</td>
+                    <td><span class="location">1155, 36885, 5</span></td>
+                </tr>
+                <tr>
+                    <td>Spot 2</td>
+                    <td>Rapidash</td>
+                    <td>Dig</td>
+                    <td><span class="location">854, 37228, 5</span></td>
+                </tr>
+                <tr>
+                    <td>Spot 3</td>
+                    <td>Donphan</td>
+                    <td>Strength</td>
+                    <td><span class="location">959, 36369, 6</span></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2><span class="emoji">🏰</span> Terceira Parte: Dungeon</h2>
+            <ul class="quest-steps">
+                <li>Volte próximo ao respawn de <strong>Magmar</strong>: <span class="location">1131, 36171, 8</span></li>
+                <li>Converse com o <strong>Unown</strong></li>
+                <li>Clique no <strong>quadrado</strong> do chão em frente ao Unown</li>
+                <li>Utilize os <strong>fragmentos</strong> coletados</li>
+            </ul>
+            
+            <div class="warning">
+                <p><strong>Dungeon Information:</strong></p>
+                <p>• Você enfrentará a maioria dos pokémons do Mt. Silver</p>
+                <p>• Dividida em 3 checkpoints (pode relogar/resetar o tempo em cada um)</p>
+                <p>• Leve bastante <strong>Revive</strong> e <strong>Potion</strong></p>
+            </div>
+            
+            <h3>Checkpoints da Dungeon:</h3>
+            <div class="checkpoint">
+                <strong>Checkpoint 1:</strong> 32/97 - Fogo<br>
+                <strong>Checkpoint 2:</strong> 76/97 - Tyranitar e Aerodactyl<br>
+                <strong>Checkpoint 3:</strong> 97/97 - Gliscor e Ursaluna
+            </div>
+            
+            <div class="warning">
+                <p><strong>⚠️ ATENÇÃO:</strong> Dentro da dungeon aparecerão alguns Shinys T1H e do PvP</p>
+                <p>• Cuidado com <strong>Lapras</strong> (bate água)</p>
+            </div>
+            
+            <h3>Boss Final:</h3>
+            <ul class="quest-steps">
+                <li>Enfrente o <strong>Boss Unown</strong></li>
+                <li>Desafio: sobreviver por <strong>3 minutos</strong></li>
+                <li>O boss usa mecânicas de vários bosses do jogo</li>
+            </ul>
+        </div>
+        
+        <div class="section rewards">
+            <h2><span class="emoji">🏆</span> Recompensas</h2>
+            <ul>
+                <li><strong>22,000,000 EXP</strong> (22KK)</li>
+                <li><strong>500 Rough Gem Stones</strong></li>
+                <li><strong>Mt. Silver Figure</strong> (item decorativo)</li>
+                <li><strong>Mt. Silver Outfit</strong> (traje exclusivo)</li>
+            </ul>
+        </div>
+        
+        <a href="index.html" class="back-button">Voltar</a>
+    </div>
+</body>
+</html>

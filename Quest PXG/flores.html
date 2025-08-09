@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quest das Flores Coloridas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif, "Segoe UI Emoji", "Apple Color Emoji";
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #e74c3c;
+        }
+        .item-list {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 4px solid #e74c3c;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .back-button:hover {
+            background-color: #c0392b;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .location {
+            background-color: #eaf2f8;
+            padding: 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 5px 0;
+            display: inline-block;
+        }
+        .color-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .rewards {
+            background-color: #eaf7ea;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">Voltar</a>
+        <h1>Quest das Flores Coloridas</h1>
+        
+        <div class="item-list">
+            <h2><span class="emoji">🧑‍💼</span> Início da Quest</h2>
+            <p><span class="emoji">📍</span> Localização do NPC:</p>
+            <div class="location">2835, 30822, 6</div>
+        </div>
+        
+        <div class="item-list">
+            <h2><span class="emoji">🌺</span> 1. Recebendo a Cesta de Flores</h2>
+            <p>O NPC irá entregar uma cesta com flores coloridas.</p>
+            <p>Você precisará encontrar círculos de pedra na floresta e marcar cada um com a flor da cor correspondente à direção.</p>
+        </div>
+        
+        <div class="item-list">
+            <h2><span class="emoji">🗺️</span> 2. Localizações dos Círculos de Pedra</h2>
+            
+            <p><span class="color-box" style="background-color: #ff0000;"></span> <strong>Norte (Vermelha):</strong></p>
+            <div class="location">2824, 30768, 6</div>
+            
+            <p><span class="color-box" style="background-color: #3498db;"></span> <strong>Centro (Azul):</strong></p>
+            <div class="location">2832, 30826, 6</div>
+            
+            <p><span class="color-box" style="background-color: #ffffff; border: 1px solid #ccc;"></span> <strong>Leste (Branco):</strong></p>
+            <div class="location">2918, 30807, 6</div>
+            
+            <p><span class="color-box" style="background-color: #f1c40f;"></span> <strong>Oeste (Amarelo):</strong></p>
+            <div class="location">2726, 30809, 6</div>
+            
+            <p><span class="color-box" style="background-color: #2ecc71;"></span> <strong>Sul (Verde):</strong></p>
+            <div class="location">2835, 30903, 6</div>
+        </div>
+        
+        <div class="item-list">
+            <h2><span class="emoji">🔑</span> 3. Retorno ao NPC</h2>
+            <p>Após marcar todos os círculos de pedra com as flores correspondentes:</p>
+            <ol>
+                <li>Volte ao NPC inicial</li>
+                <li>Ele entregará uma chave para abrir o baú atrás dele</li>
+            </ol>
+        </div>
+        
+        <div class="rewards">
+            <h2><span class="emoji">🏆</span> Recompensas</h2>
+            <p><span class="emoji">🎁</span> Chave para abrir o baú (contém itens aleatórios)</p>
+            <p><span class="emoji">🔮</span> Exemplo de recompensa recebida:</p>
+            <ul>
+                <li>20 Net Balls</li>
+                <li>(Itens podem variar entre jogadores)</li>
+            </ul>
+            <p><span class="emoji">💡</span> <em>Observação: A recompensa pode não ser igual para todos os jogadores.</em></p>
+        </div>
+        
+        <a href="index.html" class="back-button">Voltar</a>
+    </div>
+</body>
+</html>

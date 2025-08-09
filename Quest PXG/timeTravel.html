@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Time Traveler Quest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif, "Segoe UI Emoji", "Apple Color Emoji";
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #9b59b6;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #9b59b6;
+            margin-top: 25px;
+            border-left: 4px solid #9b59b6;
+            padding-left: 10px;
+        }
+        .section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #e1e4e8;
+        }
+        .prerequisites {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+        }
+        .rewards {
+            background-color: #e8f5e9;
+            border-left: 4px solid #2ecc71;
+        }
+        .pokemon-list {
+            background-color: #fef9e7;
+            border-left: 4px solid #f39c12;
+        }
+        .back-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background-color: #9b59b6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #8e44ad;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .location {
+            background-color: #eaf2f8;
+            padding: 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 5px 0;
+            display: inline-block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #9b59b6;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .note {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+        .pokemon-icon {
+            font-size: 1.4em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">Voltar</a>
+        <h1><span class="emoji">🕰️</span> The Time Traveler Quest</h1>
+        
+        <div class="section prerequisites">
+            <h2><span class="emoji">📋</span> Pré-requisitos</h2>
+            <ul>
+                <li><span class="emoji">🗼</span> <strong>Radio Tower</strong> desbloqueada</li>
+                <li><span class="emoji">🧍‍♂️</span> <strong>Level 300</strong> ou superior</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2><span class="emoji">🧭</span> Como Iniciar</h2>
+            <ol>
+                <li>Vá até a <strong>Delegacia</strong></li>
+                <li>Fale com o <strong>Terry</strong>, depois com a <strong>Jenny</strong></li>
+                <li>A partir disso, basta <strong>seguir com a Jenny</strong></li>
+            </ol>
+            
+            <div class="note">
+                <p><span class="emoji">🕳️</span> Isso liberará a <strong>Dungeon da Ursaluna</strong></p>
+                <p>• Ao derrotar o <strong>Donar</strong> (boss), você libera <strong>5 novas dungeons</strong>, cada uma com um boss no final</p>
+                <p>• Após Donar, será liberada a <strong>Dungeon do Kleavor</strong>, com seu próprio boss</p>
+                <p>• Depois disso, <strong>tudo acontece na Floresta do Celebi</strong></p>
+            </div>
+        </div>
+        
+        <div class="section pokemon-list">
+            <h2><span class="emoji">🐾</span> Pokémons Recomendados para as Batalhas</h2>
+            
+            <table>
+                <tr>
+                    <th>Pokémon Inimigo</th>
+                    <th>Recomendação</th>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🐻</span> Ursaluna</td>
+                    <td>Use <strong>Shiny Plume</strong> com <strong>ATK 5 + 50</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🐍</span> Sneasler</td>
+                    <td>Use <strong>Gothitelle</strong> com <strong>ATK 5 + 30</strong> ou <strong>S. Sandslash</strong> com <strong>ATK 4 + 50</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🔥</span> Hisuian Typhlosion</td>
+                    <td>Use <strong>Tyranitar</strong> com <strong>ATK 5 + 50</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🪓</span> Kleavor</td>
+                    <td>Use <strong>Copperajah</strong> com <strong>ATK 4 + 40</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">⚡</span> Hisuian Electrode</td>
+                    <td>Use <strong>Shiny Flareon</strong> com <strong>ATK 5 + 50</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🐟</span> Overqwil</td>
+                    <td>Use <strong>S. Sandslash</strong> com <strong>ATK 4 + 50</strong></td>
+                </tr>
+                <tr>
+                    <td><span class="pokemon-icon">🦁</span> Hisuian Arcanine</td>
+                    <td>Use <strong>Shiny Golduck</strong> com <strong>ATK 4 + 30</strong></td>
+                </tr>
+            </table>
+            
+            <div class="note">
+                <p><span class="emoji">🕐</span> <strong>Observações:</strong></p>
+                <p>• Todas as <strong>dungeons</strong> são <strong>1 tentativa por dia</strong></p>
+                <p>• <strong>Bosses</strong> possuem <strong>tentativas infinitas</strong></p>
+            </div>
+        </div>
+        
+        <div class="section rewards">
+            <h2><span class="emoji">🕰️</span> Recompensas da The Time Traveler Quest</h2>
+            
+            <h3><span class="emoji">🎖️</span> Experiência Ganha</h3>
+            <ul>
+                <li><strong>40.000.000 XP</strong> (40KK XP)</li>
+                <li><strong>1.000.000 XP</strong> (1KK) – ao desbloquear Celebi na Pokédex</li>
+                <li><strong>2.000.000 XP</strong> (2KK) em <strong>CADA</strong> dungeon dos Hisui</li>
+                <li><strong>860.000 XP</strong> (860K) em <strong>CADA</strong> boss de dungeon</li>
+                <li><strong>3.000.000 XP</strong> (3KK) no done do <strong>SUICUNE</strong></li>
+                <li><strong>2.000.000 XP</strong> (2KK) no done do <strong>MARAUDER</strong> (na máquina também dá mesma XP)</li>
+            </ul>
+            
+            <h3><span class="emoji">🎒</span> Itens Recebidos</h3>
+            <ul>
+                <li>Traje: Time Traveler Outfit</li>
+                <li>Avatar Cards: Time Traveler</li>
+                <li>Time Flute (TP para resistencia da NW)</li>
+                <li>Hourglass of Time (reduz o tempo de tp ou rope na metade)</li>
+                <li>Radio Tape #018</li>
+                <li>Y-Wing Upgrade (Tier 8)</li>
+                <li>Y-Teleport Upgrade (Tier 8)</li>
+                <li>5x Condensed Red Energies</li>
+                <li>Celebi Backpack</li>
+                <li>Celebi Background Card</li>
+                <li>The Time Traveler Statue</li>
+                <li>Título "The Time Traveler"</li>
+                <li>3 pontos de talento</li>
+                <li>Libera 5 lv máx do 600+</li>
+            </ul>
+            
+            <h3><span class="emoji">🔓</span> Pokémon Desbloqueados e Caught</h3>
+            <p>
+                <span class="pokemon-icon">🐻</span> Ursaluna |
+                <span class="pokemon-icon">🐍</span> Sneasler |
+                <span class="pokemon-icon">🐟</span> Overqwill |
+                <span class="pokemon-icon">🦌</span> Wyrdeer |
+                <span class="pokemon-icon">🌸</span> Celebi
+            </p>
+            
+            <h3><span class="emoji">🌀</span> Mystery Dungeons</h3>
+            <p>Após a quest, algumas batalhas são desbloqueadas como MD's</p>
+            <p><em>(print das MD's no comentário do fórum)</em></p>
+        </div>
+        
+        <a href="index.html" class="back-button">Voltar</a>
+    </div>
+</body>
+</html>
