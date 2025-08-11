@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johto Puzzles Quest</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: #4a148c;
+            text-align: center;
+            border-bottom: 2px solid #7b1fa2;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #6a1b9a;
+            margin-top: 30px;
+            border-left: 4px solid #9c27b0;
+            padding-left: 10px;
+        }
+        
+        .rewards {
+            background-color: #f3e5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .puzzle {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .coordinates {
+            font-family: monospace;
+            background-color: #e1bee7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .important {
+            font-weight: bold;
+            color: #880e4f;
+        }
+        
+        .note {
+            background-color: #fce4ec;
+            padding: 10px;
+            border-left: 3px solid #ad1457;
+            margin: 10px 0;
+        }
+        
+        .image-space {
+            height: 200px;
+            background-color: #f5f5f5;
+            border: 2px dashed #9e9e9e;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #757575;
+        }
+        
+        .credits {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #bdbdbd;
+            color: #616161;
+            font-size: 0.9em;
+        }
+        
+        .pokemon-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .pokemon-list li:before {
+            content: "• ";
+            color: #6a1b9a;
+            font-weight: bold;
+        }
+        
+        .puzzle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+        }
+        
+        .puzzle-item {
+            background-color: #f5f5f5;
+            padding: 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Johto Puzzles Quest</h1>
+    
+    <div class="rewards">
+        <h2>Recompensas</h2>
+        <ul class="pokemon-list">
+            <li>450K EXP</li>
+            <li>Boost Stone</li>
+            <li>Psycraft Coin</li>
+            <li>Egg do seu clã</li>
+        </ul>
+        <p class="important">Pré-requisito:</p> Ter completado todos os 9 puzzles de Johto.</p>
+    </div>
+    
+    <h2>Puzzles de Johto</h2>
+    
+    <div class="puzzle">
+        <h3>1. Puzzle Scyther - Safari Zone</h3>
+        <p>Clicar em ordem nas estátuas de Pokémon Bug:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">1º Caterpie: <span class="coordinates">(2305, 30599, 7)</span></div>
+            <div class="puzzle-item">2º Metapod: <span class="coordinates">(2275, 30556, 7)</span></div>
+            <div class="puzzle-item">3º Butterfree: <span class="coordinates">(2309, 30533, 7)</span></div>
+            <div class="puzzle-item">4º Weedle: <span class="coordinates">(2281, 30542, 7)</span></div>
+            <div class="puzzle-item">5º Kakuna: <span class="coordinates">(2308, 30520, 7)</span></div>
+            <div class="puzzle-item">6º Beedrill: <span class="coordinates">(2307, 30585, 7)</span></div>
+        </div>
+        <p>Depois ir para o norte <span class="coordinates">(2295, 30519, 7)</span>, matar o Shiny Scyther e pegar o baú.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO PUZZLE SCYTHER]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>2. Puzzle Houndoom - Safari Zone</h3>
+        <p>Clicar nos totens com caveira:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">1º: <span class="coordinates">(2283, 30463, 8)</span></div>
+            <div class="puzzle-item">2º: <span class="coordinates">(2329, 30451, 8)</span></div>
+            <div class="puzzle-item">3º: <span class="coordinates">(2325, 30471, 8)</span></div>
+            <div class="puzzle-item">4º: <span class="coordinates">(2321, 30493, 8)</span></div>
+            <div class="puzzle-item">5º: <span class="coordinates">(2300, 30481, 8)</span></div>
+        </div>
+        <p>Depois descer no buraco e matar Houndooms: <span class="coordinates">(2313, 30477, 8)</span></p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO PUZZLE HOUNDOOM]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>3. Puzzle dos Lixos - Olivine</h3>
+        <p>Falar com o NPC na frente do lixo à direita da praia.</p>
+        <p>Localização dos lixos:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item"><span class="coordinates">(2597, 30427, 6)</span></div>
+            <div class="puzzle-item"><span class="coordinates">(2554, 30436, 6)</span></div>
+            <div class="puzzle-item"><span class="coordinates">(2566, 30473, 6)</span></div>
+            <div class="puzzle-item"><span class="coordinates">(2621, 30453, 6)</span></div>
+            <div class="puzzle-item"><span class="coordinates">(2569, 30446, 6)</span></div>
+        </div>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO PUZZLE DOS LIXOS]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>4. Puzzle das Alavancas - Farol de Olivine</h3>
+        <p>Derrotar o Rocket na entrada do Lighthouse:</p>
+        <div class="note">
+            <p><strong>Time do Rocket:</strong></p>
+            <ul class="pokemon-list">
+                <li>Weezing</li>
+                <li>Primeape</li>
+                <li>Machamp</li>
+                <li>Seviper</li>
+                <li>Arbok</li>
+                <li>Zangoose</li>
+            </ul>
+        </div>
+        <p>Após a vitória, entrar no farol e usar o elevador para ir ao andar abaixo (respawn de Ampharos).</p>
+        <p>Ativar as alavancas na sequência (1, 2, 3, 4). Não pode ter Pokémon próximo quando for ativar a alavanca mestre ou pegar o baú.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DAS ALAVANCAS]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>5. Puzzle das Flores - Illex Forest</h3>
+        <p>Falar com o NPC: <span class="coordinates">(2837, 30824, 6)</span></p>
+        <p>Clicar nos círculos de pedra:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">Norte: <span class="coordinates">(2819, 30766, 6)</span> - RED 4 CLICKS</div>
+            <div class="puzzle-item">Oeste: <span class="coordinates">(2725, 30808, 6)</span> - YELLOW 3 CLICKS</div>
+            <div class="puzzle-item">Sul: <span class="coordinates">(2836, 30905, 6)</span> - GREEN 2 CLICKS</div>
+            <div class="puzzle-item">Centro: <span class="coordinates">(2834, 30829, 6)</span> - BLUE 7 CLICKS</div>
+            <div class="puzzle-item">Leste: <span class="coordinates">(2920, 30805, 6)</span> - WHITE 5 CLICKS</div>
+        </div>
+        <p>Depois falar com o NPC e pegar o baú à esquerda.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DAS FLORES]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>6. Puzzle das Estátuas do Gengar - Ecruteak</h3>
+        <p>Falar com Hiroshi: <span class="coordinates">(2949, 30094, 6)</span></p>
+        <p>Clicar nas estátuas do Gengar na ordem:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">1º: <span class="coordinates">(2919, 30053, 7)</span></div>
+            <div class="puzzle-item">2º: <span class="coordinates">(2955, 30095, 8)</span></div>
+            <div class="puzzle-item">3º: <span class="coordinates">(2921, 30101, 8)</span></div>
+            <div class="puzzle-item">4º: <span class="coordinates">(2892, 30100, 8)</span></div>
+            <div class="puzzle-item">5º: <span class="coordinates">(2856, 30096, 8)</span></div>
+            <div class="puzzle-item">6º: <span class="coordinates">(2879, 30103, 8)</span></div>
+        </div>
+        <p>Ir até o baú <span class="coordinates">(2924, 30080, 9)</span>, matar o Gengar e pegar a recompensa.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DAS ESTÁTUAS]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>7. Puzzle dos 4 Elementos - Union Cave</h3>
+        <div class="note">
+            <p class="important">Pré-requisito:</p> Ter completado a Union Quest nível 80+.</p>
+        </div>
+        <p>Localização dos altares:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">Altar Dark: <span class="coordinates">(3084, 30725, 8)</span></div>
+            <div class="puzzle-item">Altar Pedra: <span class="coordinates">(2969, 30805, 8)</span></div>
+            <div class="puzzle-item">Altar Water: <span class="coordinates">(2938, 30702, 9)</span></div>
+            <div class="puzzle-item">Altar Fogo: <span class="coordinates">(2976, 30758, 7)</span></div>
+        </div>
+        <p>Localização da alavanca/baú: <span class="coordinates">(3023, 30797, 8)</span></p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DOS ALTARES]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>8. Puzzle dos Enigmas do Unown - Ruins of Alph</h3>
+        <p><strong>1º Enigma:</strong></p>
+        <p>Dar light em <span class="coordinates">(2885, 30553, 9)</span></p>
+        <p>Resposta: 51</p>
+        
+        <p><strong>2º Enigma:</strong></p>
+        <p>Dar light em <span class="coordinates">(2876, 30500, 9)</span></p>
+        <p>Resposta: S, O, A, Z</p>
+        
+        <p><strong>3º Enigma:</strong></p>
+        <p>Dar light em <span class="coordinates">(2963, 30473, 10)</span></p>
+        <p>Resposta: Skarmory - Noctowl - Heracross - Kingdra - Celebi</p>
+        
+        <p>Pegar o baú na casinha: <span class="coordinates">(3033, 30478, 6)</span></p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DOS ENIGMAS]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>9. Puzzle NPC Gabriel - Violet City</h3>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">FORÇA: <span class="coordinates">(3211, 30278, 6)</span></div>
+            <div class="puzzle-item">CURA: <span class="coordinates">(3276, 30355, 6)</span></div>
+            <div class="puzzle-item">VIDA: <span class="coordinates">(3222, 30386, 6)</span></div>
+            <div class="puzzle-item">LUZ: <span class="coordinates">(3174, 30393, 6)</span></div>
+            <div class="puzzle-item">PAZ: <span class="coordinates">(3139, 30364, 6)</span></div>
+        </div>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO PUZZLE GABRIEL]</div>
+    </div>
+    
+    <h2>Brooke Quest</h2>
+    
+    <div class="puzzle">
+        <h3>Falar com Brooke</h3>
+        <p>Localização: <span class="coordinates">(3785, 30435, 5)</span></p>
+        <p>Pré-requisito: Ter completado todos os 9 puzzles acima.</p>
+    </div>
+    
+    <div class="puzzle">
+        <h3>1º Puzzle de Brooke</h3>
+        <p>Clicar em ordem nos seguintes itens:</p>
+        <div class="puzzle-grid">
+            <div class="puzzle-item">Gardestrike</div>
+            <div class="puzzle-item">Naturia</div>
+            <div class="puzzle-item">Raibolt</div>
+            <div class="puzzle-item">Seavell</div>
+            <div class="puzzle-item">Psycraft</div>
+            <div class="puzzle-item">Vulcanic</div>
+            <div class="puzzle-item">Wingeon</div>
+            <div class="puzzle-item">Malefic</div>
+            <div class="puzzle-item">Ironhard</div>
+            <div class="puzzle-item">Orebound</div>
+        </div>
+        <p>Interagir com a psychic spoon que aparecer no sul direita.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO 1º PUZZLE]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>2º Puzzle de Brooke</h3>
+        <p>Mover os quadrados no meio dos Pokémons para um clã que tenha dano efetivo em ambos.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO 2º PUZZLE]</div>
+    </div>
+    
+    <div class="puzzle">
+        <h3>3º Puzzle de Brooke</h3>
+        <p>Seguir o caminho desviando das peças voadoras.</p>
+        <p>Cada vez que encontrar um Pokémon, escolher o SQM do elemento que seja efetivo contra ele.</p>
+        <div class="image-space">[ESPAÇO PARA IMAGEM DO 3º PUZZLE]</div>
+    </div>
+    
+    <div class="credits">
+        <p>Inspirado no universo de Hollow Knight</p>
+        <p>© Team Cherry</p>
+    </div>
+</body>
+</html>
